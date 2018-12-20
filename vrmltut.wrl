@@ -1,0 +1,27 @@
+#VRML V2.0 utf8
+Group {                                    # open a group to include elements
+children [                                  # include a first element, a group of ‘children’
+DEF box Transform {                                 # define what kind of object
+translation 0 0 0                                 # define the coordinates of it : x y z
+children [                                         # include children
+Shape {                                   # define the properties of this object
+appearance Appearance {                          # Define appearance
+material Material { diffuseColor 0.12 0.4 0.59 }                    # Colour*
+}                                                  # Close the appearance def.
+geometry Box { }                                 # specify the type of object (box)
+}                                           # Closing the properties of the included object
+]                                            # Closing the second group of children
+} 
+     DEF box Transform {
+translation 0 1.5 0                                   # The cone will be placed as follow : x:0 y:1.5 z:0
+children [
+Shape {
+appearance Appearance {
+material Material { diffuseColor 0.87 0.27 0.59}
+}
+geometry Cone { }                                    # Define the type of object : Cone
+}
+]
+}
+]
+}                              

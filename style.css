@@ -1,0 +1,321 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nav1 h1{
+    float: left;
+    font-size: 36px;
+    margin-left: 15px;
+}
+#nav1 h1 a{
+    color:#2196F3;
+    text-decoration: none;
+    
+}
+#nav1{
+   width: 100%;
+   height: 70px;
+   line-height: 70px;
+   background-color: #401096;   
+}
+#nav1 ul{
+    float: right;
+    margin-right: 15px;
+}
+#nav1 ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+#nav1 ul li a{
+    text-decoration: none;
+    color: rgb(123, 141, 193);
+    padding: 20px;
+}
+#nav1 ul li:hover{
+    background-color:#30117b;
+}
+#active{
+    background: #30117b;
+}
+#main-content{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #3c2a9c;
+    background: url(wallpaper2you_426370.jpg) no-repeat;
+    background-size: cover;
+}
+#service{
+    background-color: rgba(39, 30, 90, 0.64);
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 5px;
+    color: #3F51B5;
+    font-weight: lighter;
+    box-shadow: 5px 5px 5px 5px cornflowerblue;
+    text-decoration: none;
+    transition:all ease-in-out cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+#service:hover
+{
+    box-shadow: 1px 5px 2px 2px rgba(39, 30, 90, 0.64);
+    transition: all ease-in-out 0.45s;
+}
+#third{
+    width: 100%;
+    height: 300px;
+    background: rgb(197, 193, 204);
+}
+#third1
+{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    display: inline-block;
+    float: left;
+    margin: 15px;
+    text-align: center;
+}
+#third1 img
+{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#footer{
+width: 100%;
+height: 100px;
+background-color: #401096;
+line-height: 10px;
+color: #02010c;
+}
+#footer h2{
+    color: rgba(0, 0, 0, 0.966);
+    float: right;
+    margin-right: 20px;
+    font-weight: 200;
+}
+#nav2{
+    background-color: #30117b;
+}
+#nav2  ul{
+    float: left;
+    margin-left: 20px;
+}
+#nav2 ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 36px;
+}
+#nav2 ul li a{
+    text-decoration: none;
+    color: rgb(190, 187, 206);
+    padding: 10px;
+}
+
+#icon{
+    font-size: 35px;
+}
+#icon2{
+    font-size: 35px;
+}
+#icon3{
+    font-size: 35px;
+}
+#icon:hover{
+color: rgb(67, 15, 190);
+}
+#icon2:hover{
+ color: rgb(56, 8, 177);
+    }
+#icon3:hover{
+        color: rgb(202, 21, 30);
+        }
+#icon4:hover{
+            color: rgb(17, 221, 34);
+            }
+#icon5:hover{
+                color: rgb(80, 13, 236);
+                }
+#icon6:hover{
+                    color: rgb(185, 19, 19);
+                    }
+#child{
+    width: 85%;
+    height: 130px;
+    background-image: url(code-coding-computer-879109.jpg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#child h3{
+    color: white;
+    background: black;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 50px;
+    font-weight: lighter;
+}
+#child a{
+    text-decoration: 
+}
+#child2 img{
+    border-radius: 5px;
+    margin-left: 100px;
+}
+#text
+{
+    float: right;
+    width: 500px;
+    margin-right: 50px;
+}
+#form
+{
+    width: 50%;
+    height: 400px;
+    background: #30117b;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 100px;
+    line-height: 40px;
+}
+#name
+{
+   width: 250px;
+   height: 25px; 
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid;
+}
+#comment {
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#sub 
+{
+    width: 75px;
+    height:50px;
+    border-radius: 10px;
+    background: #30117b;
+    color: wheat;
+    font-size: 20px;
+}
+#extra 
+{
+    width: 500px;
+    text-align: center;
+    line-height: 25px; 
+}
+#about 
+{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#login{
+    text-align: center;
+    width: 50%;
+    height: 250px;
+    margin-left: 100px;
+    line-height: 40px;
+    color:white;
+    background: #30117b;
+    background-size: 150px;
+}
+#username{
+    width: 250px;
+   height: 25px; 
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid;
+   
+}
+#login2{
+    width: 75px;
+    height:50px;
+    border-radius: 10px;
+    background: #30117b;
+    color: wheat;
+    font-size: 20px;
+}
+#signup{
+    background-color: #30117b;
+    width: 500Px;
+    height: 400px;
+    margin-left: 390px;
+    text-align: center;
+    line-height: 20px;
+    color: beige;
+}
+#sname{
+    width: 250px;
+    height: 25px; 
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid; 
+}
+#ssubmit{
+    width: 75px;
+    height:50px;
+    border-radius: 10px;
+    background: #30117b;
+    color: wheat;
+    font-size: 20px;
+}
+#already{
+    text-align: center;
+}
+#title{
+    text-align: center;
+    color: rgba(3, 0, 0, 0.904);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #02010c;
+}
+#sbody{
+    background-color: #3F51B5;
+}
+#courses{
+    width: 85%;
+    height: 500px;
+    background-image: url(planet_galaxy_blur_spots_light_stars_63579_1280x720.jpg);
+    width: 25%;
+    height: 450px;
+    line-height: 75px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+#courses ul{
+   text-align-last: center;
+   margin-right: 25px;
+}
+#courses ul li{
+    display: block;
+    list-style-type: none;
+    font-size: 36px;
+}
+#courses ul li a{
+    text-decoration: none;
+    color: rgb(190, 187, 206);
+    padding: 10px;
+}
